@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permissions</title>
+</head>
+<body>
+    <main>
+        <div> 
+            <h1>Some Title</h1>
+            <!-- Make a 3 x 4 box -->
+            <div>
+                <!--Permission-->
+                <div>
+                    <div>Permission</div>
+                    <div>r</div>
+                    <div>w</div>
+                    <div>x</div>
+                </div>
+                <!--Files-->
+                <div>
+                    <div>Files</div>
+                    <div>can read the file</div>
+                    <div>can write the file</div>
+                    <div>can execute the file</div>
+                </div>
+                <!--Directories-->
+                <div>
+                    <div>Directories</div>
+                    <div>can ls the directory</div>
+                    <div>can modify the directory's contents</div>
+                    <div>can cd to the directory</div>
+                </div>
+            </div>
+
+
+
+            <p>Sets that represent different levels of ownership: </p>
+
+            <ol>
+                <li>Owner or user permissions: after directory (d) slot,  the first set of three characters indicate permission settings for the owner
+                    Examples: </li>
+                <li>
+                    <ol>
+                        <li>-rw-r--r--, the owner permissions are rw-, indicating that the owner can read and write to the file but can't execute it as a program.</li>
+                        <li>drwxr-xr-x, the owner permissions are rwx, indicating that the owner can view, modify, and enter the directory</li>
+                    </ol>
+                </li>
+                <li>Group permissions: The second rwx set indicates the group permissions
+                    Examples:  </li>
+                <li>
+                    <ol>
+                        <li>-rw-r--r--, group members can only read the file.</li>
+                        <li>drwxr-xr-x, group members can view as well as enter the directory</li>
+                    </ol>
+                </li>
+                <li>3.	Other permissions: The final rwx set is for "other" (sometimes referred to as "world"). This is anyone outside the group. </li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>Change Permissions</h2>
+            <p>To modify file and directory permissions on a Unix-like operating system, you can use the chmod (change mode) command. The chmod command allows you to change the permissions for the owner of a file or directory (represented by "u"), the group owner of a file or directory (represented by "g"), or other users on the system (represented by "o").You can add (+) or subtract (-) read, write, and execute permissions for each of these categories.</p>
+            <p>SYMBOLIC METHOD- lets you specify permissions with single letter abbreviations. A chmod command using this method consists of at least three parts from the following lists:</p>
+            <!-- Make a 3 x 4 box -->
+            <div>
+                <!--Access class-->
+                <div>
+                    <div>Access class</div>
+                    <div>u (user)</div>
+                    <div>g (group)</div>
+                    <div>o (other)</div>
+                    <div>a (all: u, g, and o)</div>
+                </div>
+                <!--Operator-->
+                <div>
+                    <div>Operator</div>
+                    <div>+ (add access)</div>
+                    <div>- (remove access)</div>
+                    <div>= (set exact access)</div>
+                </div>
+                <!--Access Type-->
+                <div>
+                    <div>Access Type</div>
+                    <div>r (read)</div>
+                    <div>w (write)</div>
+                    <div>x (execute)</div>
+                </div>
+
+
+                <p>e.g  to add permission for everyone to read a file in the current directory named myfile, at the Unix prompt, enter:</p>
+                <p>chmod a+r myfile</p>
+                <p>a stands for "all", the + for "add", and the r for "read".</p>
+                
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
