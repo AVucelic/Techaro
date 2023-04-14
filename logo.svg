@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 733.33 737.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 66.67px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: AlienEncounters, 'Alien Encounters';
+        font-size: 604.8px;
+      }
+    </style>
+  </defs>
+  <g id="SVGRepo_iconCarrier" data-name="SVGRepo iconCarrier">
+    <g id="Complete">
+      <g id="Circle">
+        <circle id="Circle-2" class="cls-1" cx="366.67" cy="366.67" r="333.33"/>
+      </g>
+    </g>
+  </g>
+  <text class="cls-2" transform="translate(167.51 611.29)"><tspan x="0" y="0">T</tspan></text>
+</svg>
