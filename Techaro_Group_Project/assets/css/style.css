@@ -1,0 +1,98 @@
+body{
+    background:#2E4A76;
+    font-size: 18px;
+}
+
+/*styling for title on sshTitle.html*/
+.sshTitle{
+    color: #483037;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*styling for h2 on sshTitle.html*/
+.sshH2{
+    color: #F0623D; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sshMain{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 20px p;
+}
+
+p{
+    color: #FEF1DB;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/************FOR THE COMMANDS PAGE*************/
+/* for the overall margins of the content*/
+body{
+    background-color: #2E4A76;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/*changed the color and size of the title*/
+h1{
+    color: #FEF1DB;
+    text-align: center;
+    font-size: 50px;
+    padding: 5%;
+}
+h2{
+    color: #F0623D;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+}
+/*to color the font of the paragpraph*/
+#p1{
+    color: #FEF1DB;
+    font-size: 20px;
+    line-height: 2;
+}
+/*to put commands in a little "box"*/
+#p2{
+    border-color: #483037;
+    border-style: solid;
+    background-color: #483037;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FEF1DB;
+    margin-left: 10%;
+}
+/*styling the footer*/
+footer{
+    background-color: #446dae;
+    padding: 20px;
+    margin-top: 5em;
+}
+/**************FOR THE PERMISSIONS PAGE**************/
+/*making a grid to show part of the text in a box*/
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ee9a86;
+    padding: 10px;
+}
+.grid-item{
+    border: 1px solid #F0623D;
+    line-height: 1.5;
+    background-color: #f78a6f;
+    color: #483037;
+    text-align: center;
+    font-size: 20px;
+}
