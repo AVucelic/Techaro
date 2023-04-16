@@ -20,13 +20,23 @@ h2{
     padding-top: 5%;
 }
 /*to color the font of the paragpraph*/
-#p1{
+.p1{
+    color: #FEF1DB;
+    font-size: 20px;
+    line-height: 2;
+}
+p{
+    color: #FEF1DB;
+    font-size: 20px;
+    line-height: 2;
+}
+li{
     color: #FEF1DB;
     font-size: 20px;
     line-height: 2;
 }
 /*to put commands in a little "box"*/
-#p2{
+.p2{
     border-color: #483037;
     border-style: solid;
     background-color: #483037;

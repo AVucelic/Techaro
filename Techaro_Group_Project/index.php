@@ -4,7 +4,7 @@
 ?>
     <main>
         <div>
-            <h1>Title Text</h1>
+            <h1>Homepage</h1>
             <p>
                 Unix is a computer Operating System[1] which is capable of handling activities from multiple users at the
                 same time. Oldest operating system that has ever existed. Run multiple application programs simultaneously.
@@ -15,7 +15,7 @@
             <p>[1]]operating system- suite of programs which make the computer work.</p>
         </div>
         <div>
-            <h1>Main Features</h1>
+            <h2>Main Features</h2>
             <ol>
                 <li>simplicity</li>
                 <li>portability -able to run on many different systems</li>

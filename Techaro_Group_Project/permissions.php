@@ -23,32 +23,32 @@
 
             <h2>SETS REPRESENTING DIFFERENT LEVELS OF OWNERSHIP</h2>
 
-            <p id="p1">Owner or user permissions: after directory (d) slot, the first set of three characters 
+            <p class="p1">Owner or user permissions: after directory (d) slot, the first set of three characters 
                 indicate permission settings for the owner.</p>
-            <p id="p1"><i>Examples:</i></p>
+            <p class="p1"><i>Examples:</i></p>
                     <ol>
-                        <li id="p1"> Owner permissions are rw-, indicating that the owner can read and write to the file but can't execute it as a program.</li>
-                        <p id="p2">-rw-r--r-- </p>
-                        <li id="p1">The owner permissions are rwx, indicating that the owner can view, modify, and enter the directory.</li>
-                        <p id="p2">drwxr-xr-x </p> 
+                        <li class="p1"> Owner permissions are rw-, indicating that the owner can read and write to the file but can't execute it as a program.</li>
+                        <p class="p2">-rw-r--r-- </p>
+                        <li class="p1">The owner permissions are rwx, indicating that the owner can view, modify, and enter the directory.</li>
+                        <p class="p2">drwxr-xr-x </p> 
                     </ol>
-            <p id="p1">Group permissions: The second rwx set indicates the <strong>group permissions.</strong></p>
-            <p id="p1"><i>Examples:</i>  </p>
+            <p class="p1">Group permissions: The second rwx set indicates the <strong>group permissions.</strong></p>
+            <p class="p1"><i>Examples:</i>  </p>
                     <ol>
-                        <li id="p1">Group members can only read the file.</li>
-                        <p id="p2">-rw-r--r--</p>
-                        <li id="p1">Group members can view as well as enter the directory.</li>
-                        <p id="p2">drwxr-xr-x</p>
+                        <li class="p1">Group members can only read the file.</li>
+                        <p class="p2">-rw-r--r--</p>
+                        <li class="p1">Group members can view as well as enter the directory.</li>
+                        <p class="p2">drwxr-xr-x</p>
                     </ol>
                 
-            <p id="p1">Other permissions: The final rwx set is for "other" (sometimes referred to as "world"). This is anyone outside the group. </p>
+            <p class="p1">Other permissions: The final rwx set is for "other" (sometimes referred to as "world"). This is anyone outside the group. </p>
         
         </div>
 
         <div>
             <h2>CHANGING PERMISSIONS</h2>
-            <p id="p1">To modify file and directory permissions on a Unix-like operating system, you can use the chmod (change mode) command. The chmod command allows you to change the permissions for the owner of a file or directory (represented by "u"), the group owner of a file or directory (represented by "g"), or other users on the system (represented by "o").You can add (+) or subtract (-) read, write, and execute permissions for each of these categories.</p>
-            <p id="p1">SYMBOLIC METHOD- lets you specify permissions with single letter abbreviations. A chmod command using this method consists of at least three parts from the following lists:</p>
+            <p class="p1">To modify file and directory permissions on a Unix-like operating system, you can use the chmod (change mode) command. The chmod command allows you to change the permissions for the owner of a file or directory (represented by "u"), the group owner of a file or directory (represented by "g"), or other users on the system (represented by "o").You can add (+) or subtract (-) read, write, and execute permissions for each of these categories.</p>
+            <p class="p1">SYMBOLIC METHOD- lets you specify permissions with single letter abbreviations. A chmod command using this method consists of at least three parts from the following lists:</p>
             <!-- Make a 3 x 4 box -->
             <div>
                 <div class="container">
@@ -70,9 +70,9 @@
 
                 </div>
             
-                <p id="p1">E.g  to add permission for everyone to read a file in the current directory named myfile, at the Unix prompt, enter:</p>
-                <p id="p2">chmod a+r myfile</p>
-                <p id="p1">The 'a' stands for "all", the + for "add", and the r for "read".</p>
+                <p class="p1">E.g  to add permission for everyone to read a file in the current directory named myfile, at the Unix prompt, enter:</p>
+                <p class="p2">chmod a+r myfile</p>
+                <p class="p1">The 'a' stands for "all", the + for "add", and the r for "read".</p>
                 
             </div>
 
