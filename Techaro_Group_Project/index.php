@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-
-<body>
+<?php
+    $name = 'Homepage';
+    include 'assets/php/nav.php';
+?>
     <main>
         <div>
             <h1>Title Text</h1>
@@ -19,7 +12,7 @@
                 hierarchical file system
             </p>
             <hr>
-            <p>[1]]operating system- suite of programs which make the computer work.             </p>
+            <p>[1]]operating system- suite of programs which make the computer work.</p>
         </div>
         <div>
             <h1>Main Features</h1>
@@ -37,7 +30,6 @@
         </div>
         
 
-    </main>
-</body>
-
-</html>
+<?php
+    include "assets/php/footer.php";
+?>
