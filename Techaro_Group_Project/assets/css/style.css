@@ -1,0 +1,66 @@
+body{
+    background:#2E4A76;
+    font-size: 18px;
+}
+
+/*styling for title on sshTitle.html, dir_stru.html*/
+.sshTitle{
+    color: #ffffff;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*styling for h2 on sshTitle.html, dir_stru.html*/
+.sshH2{
+    color: #F0623D; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*styling for main on sshTitle.html, dir_stru.html*/
+.sshMain{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+/*styling for image on sshTitle.html*/
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 20px p;
+}
+
+/*styling for elements with p tag on sshTitle.html, dir_stru.html*/
+p{
+    color: #FEF1DB;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*styling for p elements with  sshSaple class on sshTitle.html*/
+.sshSample{
+    border-style: solid;
+    border-color: #483037;
+    background-color: #483037;
+    border-radius: 3%;
+    margin-left: 20px;
+    margin-right: 190px;
+  
+}
+
+/*styling for list items  on dir_stru.html*/
+.liDirStru{
+    color: #FEF1DB;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*styling for b tag with bTagDirStru class  on dir_stru.html*/
+.bTagDirStru{
+    color: #483037;
+
+}
