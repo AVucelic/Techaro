@@ -12,15 +12,42 @@
             <h2 class = "sshH2">Secure File Copy - scp </h2>
             <p>Scp is a program for copying files between computers. It uses the SSH protocol. It is included by default in most Linux and Unix distributions. It is also included in the Tectia SSH and OpenSSH packages.</p>
             <p><b>Basic usage of scp is as follows:</b> </p>
-            <p class="sshSample">scp file host:path</p>
+
+           <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                scp file host:path
+            </code></pre> </div>
+
+
+
+            
             <p>This copies the file to the remote host. The destination path is optional, but can be a directory on the server, or even a file name if copying a single file. It is possible to specify multiple files; the last one is the destination.</p>
             <p><b>To copy a file from the remote host, use:</b></p>
-            <p class="sshSample">scp host:file path</p>
+
+            <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                scp host:file path
+            </code></pre> </div>
+
+
             <p>This fetches the file from the host, and puts it in the directory indicated by path</p>
                 <p><b>Copying directory trees with scp</b></p> 
                 
             <p>To copy entire directory trees instead of single files, add the -roption. For example:</p>
-            <p class="sshSample">scp -r host:path/directory .</p>
+
+            <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                scp -r host:path/directory .
+            </code></pre> </div>
+
+
+
             <p>This would fetch path/directory from the host, copying it to the current working directory (creating directory in current working directory).</p>
         </div>
         <div>
@@ -33,14 +60,29 @@
             <h2 class = "sshH2">SCP Command on Linux</h2>
             <p>The scp command is a file transfer program for SFTP in Linux. The scp command line interface was designed after the old rcp command in BSD Unix. The scp also usually comes with the OpenSSH package.</p>
             <p>Its typical use is:</p>
-            <p class="sshSample">scp [-r] file ... [user@]host:[path]</p>
+
+            <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                scp [-r] file ... [user@]host:[path]
+            </code></pre> </div>
+
+
             <p>Basically, this copies one or more files to the given host. If useris given, then they are copied to that account on the host. If no user is supplied, then the same user name as on the client side is assumed. If path is given, then the files are copied to that directory (relative to the given user's home directory). If no path is given, the files are copied to the user's home directory. If the 
                 -r option is supplied, then files may be directories, and the given directory and all its subdirectories and files in them (recursively) are copied.
                 </p>
             <p>
                 One can also copy in the reverse direction:
             </p>
-            <p class="sshSample">scp [-r] [user@]host:file path</p>
+
+            <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                scp [-r] [user@]host:file path
+            </code></pre> </div>
+            
         
         </div>
         <div>
@@ -61,12 +103,39 @@
                     <div>
                         <ol class = "liDirStru">
                             <li class = "liDirStru">Using your institution's assigned username, enter the following command: </li>
-                            <p class="sshSample">sftp [username]@[data center]</p>
+
+                            <div class="snippet">
+                                  <pre><code class="language-bash">
+                                        # Testing Unix (Bash) code here
+
+                                        sftp [username]@[data center]
+                                   </code></pre>
+                                 </div>
+
+
+                           
                             <li>Enter your institution's assigned password</li>
                             <li>Choose directory (see directory folders). Enter: </li>
-                            <p class="sshSample"> cd [directory name or path]</p>
+
+                            <div class="snippet">
+                                  <pre><code class="language-bash">
+                                        # Testing Unix (Bash) code here
+
+                                        cd [directory name or path]
+                                   </code></pre>
+                                 </div>
+                            
                             <li>Enter:</li>
-                            <p class="sshSample"> put [myfile] (copies file from your local system to OCLC's system)</p>
+
+
+                            <div class="snippet">
+                                  <pre><code class="language-bash">
+                                        # Testing Unix (Bash) code here
+
+                                        put [myfile] (copies file from your local system to OCLC's system)
+                                   </code></pre>
+                                 </div>
+                           
                             <li>Enter quit</li>
                         </ol>
                     </div>
@@ -74,7 +143,15 @@
                         <div class = "liDirStru"><b>Secure, Copy - Commands</b></div>
                         <ol>
                             <li class = "liDirStru">Enter:</li>
-                            <p class="sshSample"> scp [myfile] [username]@[data center]:[directory name or path] </p>
+
+                            <div class="snippet">
+                                  <pre><code class="language-bash">
+                                        # Testing Unix (Bash) code here
+
+                                        scp [myfile] [username]@[data center]:[directory name or path]
+                                   </code></pre>
+                                 </div>
+                            
                             <li class = "liDirStru">Enter the password when prompted</li>
                         </ol>
                     </div>

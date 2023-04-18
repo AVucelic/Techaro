@@ -50,20 +50,39 @@
                 Linux typically uses the OpenSSH client. The ssh command to log into a remote machine is very simple. To
                 log in to a remote computer called sample.ssh.com, type the following command at a shell prompt:
             </p>
-            <p class="sshSample">ssh sample.ssh.com</p>
+            <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                ssh sample.ssh.com
+            </code></pre> </div>
+     
             <p>
                 If this is the first time you use ssh to connect to this remote machine, you will see a message like:
             </p>
-            <p class="sshSample">The authenticity of host 'sample.ssh.com' cannot be established. <br>
+
+            <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                The authenticity of host 'sample.ssh.com' cannot be established. <br>
                 DSA key fingerprint is 04:48:30:31:b0:f3:5a:9b:01:9d:b3:a7:38:e2:b1:0c.<br>
-                Are you sure you want to continue connecting (yes/no)?<br>
+                Are you sure you want to continue connecting (yes/no)?
+            </code></pre> </div>
+            
             </p>
                <p>Type
                 yes to continue. This will add the server to your list of known hosts (
                 ~/.ssh/known_hosts
                 ) as seen in the following message:<br></p>
-                <p class="sshSample"> Warning: Permanently added 'sample.ssh.com' (DSA) to the list of
-                known hosts. </p> 
+
+                <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                Warning: Permanently added 'sample.ssh.com' (DSA) to the list of  known hosts.
+            </code></pre> </div>
+                
 
             
             <p>
