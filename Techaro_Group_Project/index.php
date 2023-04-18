@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-
-<body>
+<?php
+    $name = 'Homepage';
+    include 'assets/php/nav.php';
+?>
     <main>
         <div>
-            <h1>Title Text</h1>
+            <h1>Homepage</h1>
             <p>
                 Unix is a computer Operating System[1] which is capable of handling activities from multiple users at the
                 same time. Oldest operating system that has ever existed. Run multiple application programs simultaneously.
@@ -19,10 +12,10 @@
                 hierarchical file system
             </p>
             <hr>
-            <p>[1]]operating system- suite of programs which make the computer work.             </p>
+            <p>[1]]operating system- suite of programs which make the computer work.</p>
         </div>
         <div>
-            <h1>Main Features</h1>
+            <h2>Main Features</h2>
             <ol>
                 <li>simplicity</li>
                 <li>portability -able to run on many different systems</li>
@@ -37,7 +30,6 @@
         </div>
         
 
-    </main>
-</body>
-
-</html>
+<?php
+    include "assets/php/footer.php";
+?>

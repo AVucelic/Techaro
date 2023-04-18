@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Techaro_Group_Project/assets/css/style.css">
-    <title>SSH Commands</title>
-</head>
-<body>
+
+<?php
+    $name = 'Homepage';
+    include 'assets/php/nav.php';
+?>
     <main class="sshMain">
+
         <div>
             <h1 class="sshTitle">SSH Commands</h1>
         </div>
@@ -85,6 +81,6 @@
                 </div>
             </div>
         </div>
-    </main>
-</body>
-</html>
+<?php
+    include "assets/php/footer.php";
+?>

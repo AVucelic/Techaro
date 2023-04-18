@@ -1,17 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Techaro_Group_Project/assets/css/style.css">
-    
-    <title>What is SSH?</title>
-</head>
-
-<body>
+<?php
+    $name = 'Homepage';
+    include 'assets/php/nav.php';
+?>
     <main  class="sshMain">
+
         <div>
             <h1 class="sshTitle">What is SSH?</h1>
         </div>
@@ -80,7 +73,6 @@
                 
             </p>
         </div>
-    </main>
-</body>
-
-</html>
+<?php
+    include "assets/php/footer.php";
+?>

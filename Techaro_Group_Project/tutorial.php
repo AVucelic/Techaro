@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GUIDELINE </title>
-</head>
-<body>
+<?php
+    $name = 'Homepage';
+    include 'assets/php/nav.php';
+?>
     <main>
         <div>
             <h1>Tutorial</h1>
@@ -21,6 +16,6 @@
                 <li>Once done your files should be accessible online. Make sure to check the permissions on the files and directories to allow those to access your information</li>
             </ol>
         </div>
-    </main>
-</body>
-</html>
+<?php
+    include "assets/php/footer.php";
+?>

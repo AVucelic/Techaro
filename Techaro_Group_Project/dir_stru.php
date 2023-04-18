@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Techaro_Group_Project/assets/css/style.css">
-    <title>DIRECTORY STRUCTURE</title>
-</head>
-<body>
+
+<?php
+    $name = 'Directory Structure';
+    include 'assets/php/nav.php';
+?>
     <main class="sshMain">
+
         <div>
             <h1 class="sshTitle">Directory structure</h1>
             <h2 class = "sshH2">General</h2>
@@ -28,6 +24,6 @@
                     Unix is case sensitive from the console terminal end </li>
             </ol>
         </div>
-    </main>
-</body>
-</html>
+<?php
+    include "assets/php/footer.php";
+?>
