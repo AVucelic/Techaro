@@ -12,11 +12,24 @@
                 <li>
                     <p>To create an ordinary file on a Unix system using the vi editor, you can use the following
                         command which will open a file with a given name:</p>
-                    <p>$ vi filename</p>
+                        <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                $ vi filename
+            </code></pre> </div>
+                    
                 </li>
                 <li>
                     <p>press i to open edit mode and write your content </p>
-                    <p>This is unix file....I created it for the first time.....</p>
+
+                    <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
+                This is unix file....I created it for the first time.....
+            </code></pre> </div>
+                   
                 </li>
                 <li>
                     <p>Once done: </p>
@@ -47,7 +60,14 @@
             <p>variable_name=variable_value</p>
             <p>To access a variable in Unix, we simply need to prepend its name with a '$' symbol
                 e.g to print the value of the 'PATH' environment variable, we would write:
+
+                <div class="snippet">
+            <pre><code class="language-bash">
+                # Testing Unix (Bash) code here
+
                 echo $PATH
+            </code></pre> </div>
+                
             </p>
         </div>
 <?php

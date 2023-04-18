@@ -6,8 +6,8 @@ body {
 }
 
 .snippet {
-    width: 40%;
-    margin: 12% auto;
+    width: auto;
+    margin: 3% auto;
 }
 
 .copy-to-clipboard-button {
