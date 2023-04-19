@@ -9,6 +9,13 @@
         <div>
             <h1>Some Things</h1>
         </div>
+        <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+        </ul>
+    </div>
         <div>
             <h2>Types of Computer Networks</h2>
             <p>Computer networks can be described by how they transmit data, the size of the network, the topology, and

@@ -126,6 +126,7 @@ footer{
     grid-template-columns: auto auto auto;
     background-color: #ee9a86;
     padding: 10px;
+    margin-top: 3em;
 }
 .grid-item{
     border: 1px solid #F0623D;
@@ -135,4 +136,21 @@ footer{
     text-align: center;
     font-size: 20px;
 
+}
+
+/******STYLE FOR JUMP LINKS******/
+.jumpLinks{
+    position: sticky;
+    display: inline-block;
+    border: #F0623D solid 2px;
+}
+
+.linksUl{
+    list-style-type: none;
+}
+
+.link{
+    color: #FEF1DB;
+    text-decoration: none;
+    margin-right: 30px;
 }

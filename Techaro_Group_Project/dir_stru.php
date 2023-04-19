@@ -4,7 +4,7 @@
     include 'assets/php/nav.php';
 ?>
     <main class="sshMain">
-
+        
         <div>
             <h1 class="sshTitle">Directory structure</h1>
             <h2 class = "sshH2">General</h2>

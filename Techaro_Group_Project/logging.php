@@ -5,6 +5,13 @@
     <main>
         <div>
             <h1>Some Title</h1>
+            <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+        </ul>
+    </div>
             <p>If your computer has the Unix operating system installed, all you need to do is power it on to start
                 using it. Upon powering on the computer, the operating system will begin to boot up, and eventually, it
                 will display a prompt asking you to log in. Logging in will give you access to the system, allowing you
