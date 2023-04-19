@@ -2,10 +2,9 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
-    <main>
+    <main class="main1">
         <div>
             <h1>Tutorial</h1>
-<p>Amonng us</p>
         </div>
         <div>
             <ol>

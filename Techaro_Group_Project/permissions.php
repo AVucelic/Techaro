@@ -2,10 +2,13 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
-    <main>
+    <main class="main1"> 
         <div> 
         <h1>Permissions in Unix</h1>
                 <!-- Make a 3 x 4 box -->
+            
+
+            <h2>SETS REPRESENTING DIFFERENT LEVELS OF OWNERSHIP</h2>
             <div class="container">
                 <div class="grid-item">Permission</div>
                 <div class="grid-item">Files</div>
@@ -20,25 +23,48 @@
                 <div class="grid-item">can execute the file</div>
                 <div class="grid-item">can cd to the directory</div>
             </div>
-
-            <h2>SETS REPRESENTING DIFFERENT LEVELS OF OWNERSHIP</h2>
-
             <p class="p1">Owner or user permissions: after directory (d) slot, the first set of three characters 
                 indicate permission settings for the owner.</p>
             <p class="p1"><i>Examples:</i></p>
                     <ol>
                         <li class="p1"> Owner permissions are rw-, indicating that the owner can read and write to the file but can't execute it as a program.</li>
-                        <p class="p2">-rw-r--r-- </p>
+                        <div class="snippet">
+                            <pre><code class="language-bash">
+                            #owner can read and write but not execute
+
+                            rw--r--r-- 
+                            </code></pre> 
+                        </div>
+                        
                         <li class="p1">The owner permissions are rwx, indicating that the owner can view, modify, and enter the directory.</li>
-                        <p class="p2">drwxr-xr-x </p> 
+                        <div class="snippet">
+                            <pre><code class="language-bash">
+                            #for directories
+
+                            drwxr-xr-x
+                            </code></pre> 
+                        </div>
+                       
                     </ol>
             <p class="p1">Group permissions: The second rwx set indicates the <strong>group permissions.</strong></p>
             <p class="p1"><i>Examples:</i>  </p>
                     <ol>
                         <li class="p1">Group members can only read the file.</li>
-                        <p class="p2">-rw-r--r--</p>
+                        <div class="snippet">
+                            <pre><code class="language-bash">
+                            #for groups
+
+                            r--rw-r--
+                            </code></pre> 
+                        </div>
                         <li class="p1">Group members can view as well as enter the directory.</li>
-                        <p class="p2">drwxr-xr-x</p>
+                        <div class="snippet">
+                            <pre><code class="language-bash">
+                            #for groups
+
+                            drwxr-xr-x
+                            </code></pre> 
+                        </div>
                     </ol>
                 
             <p class="p1">Other permissions: The final rwx set is for "other" (sometimes referred to as "world"). This is anyone outside the group. </p>
@@ -71,7 +97,13 @@
                 </div>
             
                 <p class="p1">E.g  to add permission for everyone to read a file in the current directory named myfile, at the Unix prompt, enter:</p>
-                <p class="p2">chmod a+r myfile</p>
+                <div class="snippet">
+                    <pre><code class="language-bash">
+                        #changing permisions 
+
+                        chmod a+r myfile
+                    </code></pre> 
+                </div>
                 <p class="p1">The 'a' stands for "all", the + for "add", and the r for "read".</p>
                 
             </div>
