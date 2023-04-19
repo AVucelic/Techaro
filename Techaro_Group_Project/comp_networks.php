@@ -5,9 +5,9 @@
     include 'assets/php/nav.php';
 ?>
 
-    <main>
+    <main class="main1">
         <div>
-            <h1>Some Things</h1>
+            <h1>Computer Networks</h1>
         </div>
         <div>
             <h2>Types of Computer Networks</h2>
@@ -52,11 +52,13 @@
         </div>
         <div>
             <h2>Key Objectives of Creating and Deploying a Computer Network</h2>
+            <div class="text-image">
             <p>There is no industry—education, retail, finance, tech, government, or healthcare—that can survive without
                 well-designed computer networks. The bigger an organization, the more complex the network becomes.
                 Before taking on the onerous task of creating and deploying a computer network, here are some key
                 objectives that must be considered.</p>
             <img src="assets/imgs/devlop_network.png" alt="">
+            </div>
         </div>
         <?php
         include "assets/php/footer.php";
