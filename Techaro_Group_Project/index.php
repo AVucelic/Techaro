@@ -2,7 +2,7 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
-    <main>
+    <main class="main1">
         <div>
             <h1>Homepage</h1>
             <div class="jumpLinks">

@@ -2,8 +2,9 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
-    <main>
+    <main class="main1">
         <!-- Style this to look like the thing in the document outline-->
+
         <div class="jumpLinks">
         <ul class="linksUl">
             <li><a class="link" href="#">Jump Link</a></li>
@@ -12,8 +13,11 @@
         </ul>
     </div>
         <div>
+
+        <div class="container">
+
             <!--1969-->
-            <div>
+            <div >
                 <p>1969</p>
                 <p>The Beginning</p>
                 <p>Ken Thompson, Dennis Ritchie and others started working on the "little-used PDP-7 in a corner" at Bell Labs and what was to become UNIX</p>
@@ -55,29 +59,47 @@
         <!--People-->
         <div>
             <h2>LINUS TORVALDS</h2>
-            <img src="assets/imgs/linus.png" alt="LINUS TORVALDS">
-            <p>Linus Torvalds is a software engineer and the creator of the Linux operating system. He was born on December 28, 1969, in Helsinki, Finland</p>
-            <p>Torvalds grew up in a family of journalists and studied computer science at the University of Helsinki.•	In 1991, at the age of 21, Torvalds started working on a new operating system as a hobby project. He named the project "Linux," which is a combination of his first name and the word Unix.</p>
-            <p>Over the years, Linux has grown into a popular and powerful operating system used by individuals, businesses, and organizations around the world. Today, Linux powers a wide range of devices, from smartphones and laptops to servers and supercomputers.•	In addition to his work on Linux, Torvalds has also contributed to several other open-source projects, including Git, a version control system widely used in software development.</p>
-            <p>Torvalds has received numerous awards and honors for his contributions to computer science and open-source software. In 2012, he was awarded the Millennium Technology Prize, which is often referred to as the "Nobel Prize of technology”</p>
-            <p>Despite his many achievements, Torvalds is known for his humble and down-to-earth personality; He has said that he never intended for Linux to become as big as it has and that he is still amazed by its success today</p>
+            <div class="text-image">
+                <div>
+                    <p>Linus Torvalds is a software engineer and the creator of the Linux operating system. He was born on December 28, 1969, in Helsinki, Finland</p>
+                    <p>Torvalds grew up in a family of journalists and studied computer science at the University of Helsinki.•	In 1991, at the age of 21, Torvalds started working on a new operating system as a hobby project. He named the project "Linux," which is a combination of his first name and the word Unix.</p>
+                    <p>Over the years, Linux has grown into a popular and powerful operating system used by individuals, businesses, and organizations around the world. Today, Linux powers a wide range of devices, from smartphones and laptops to servers and supercomputers.•	In addition to his work on Linux, Torvalds has also contributed to several other open-source projects, including Git, a version control system widely used in software development.</p>
+                    <p>Torvalds has received numerous awards and honors for his contributions to computer science and open-source software. In 2012, he was awarded the Millennium Technology Prize, which is often referred to as the "Nobel Prize of technology”</p>
+                    <p>Despite his many achievements, Torvalds is known for his humble and down-to-earth personality; He has said that he never intended for Linux to become as big as it has and that he is still amazed by its success today</p>
+                </div>
+                <img src="assets/imgs/linus.png" alt="LINUS TORVALDS">
+            </div>
+            
+            
         </div>
         <div>
             <h2>KEN THOMPSON</h2>
-            <img src="assets/imgs/ken.png" alt="Ken Thompson">
-            <p>Ken Thompson is an American computer scientist who is best known for his contributions to the development of the Unix operating system and the programming languages B and C</p>
-            <p>He was born on February 4, 1943, in New Orleans, Louisiana. Thompson received his bachelor's degree in electrical engineering from the University of California, Berkeley, in 1965. He then went on to earn his master's degree and Ph.D. in computer science from the same institution.</p>
-            <p>In the late 1960s, Thompson worked at Bell Labs, where he began developing the Unix operating system along with his colleague Dennis Ritchie. Unix was a ground-breaking operating system that introduced many new concepts, such as a hierarchical file system and the use of pipes for interprocess communication. Thompson also played a key role in the development of the B programming language, which was used to write the first version of Unix.</p>
-            <p>He later worked with Ritchie to develop the C programming language, which became one of the most widely used programming languages in the world. Thompson has received many awards and honors for his contributions to computer science. •	In 1983, he was awarded the Turing Award, which is often referred to as the "Nobel Prize of computing." In 1990, he was inducted into the National Academy of Engineering.</p>
+            <div class="text-image">
+                <img src="assets/imgs/ken.png" alt="Ken Thompson">
+                <div>
+                    <p>Ken Thompson is an American computer scientist who is best known for his contributions to the development of the Unix operating system and the programming languages B and C</p>
+                    <p>He was born on February 4, 1943, in New Orleans, Louisiana. Thompson received his bachelor's degree in electrical engineering from the University of California, Berkeley, in 1965. He then went on to earn his master's degree and Ph.D. in computer science from the same institution.</p>
+                    <p>In the late 1960s, Thompson worked at Bell Labs, where he began developing the Unix operating system along with his colleague Dennis Ritchie. Unix was a ground-breaking operating system that introduced many new concepts, such as a hierarchical file system and the use of pipes for interprocess communication. Thompson also played a key role in the development of the B programming language, which was used to write the first version of Unix.</p>
+                    <p>He later worked with Ritchie to develop the C programming language, which became one of the most widely used programming languages in the world. Thompson has received many awards and honors for his contributions to computer science. •	In 1983, he was awarded the Turing Award, which is often referred to as the "Nobel Prize of computing." In 1990, he was inducted into the National Academy of Engineering.</p>
+                </div>
+            </div>
+            
+            
         </div>
 
         <div>
             <h2>DENNIS RITCHIE</h2>
-            <img src="assets/imgs/dennis.png" alt="Dennis Ritchie">
-            <p>Dennis Ritchie was an American computer scientist who is best known for his contributions to the development of the Unix operating system and the C programming language.</p>
-            <p>He was born on September 9, 1941, in Bronxville, New York, and passed away on October 12, 2011. Ritchie received his bachelor's degree in physics from Harvard University in 1963 and his Ph.D. in computer science from the Massachusetts Institute of Technology (MIT) in 1968. He then joined Bell Labs, where he began working on the development of Unix, along with his colleague Ken Thompson.</p>
-            <p>Ritchie played a key role in the development of the C programming language, which was used to write the first version of Unix. C became one of the most widely used programming languages in the world and has influenced the development of many other programming languages. Ritchie was also a co-author of the book "The C Programming Language," which is often referred to as the "bible" of the C programming language.</p>
-            <p>In addition to his work on Unix and C, Ritchie also contributed to several other areas of computer science, including algorithms, software tools, and operating systems. Ritchie received many awards and honors for his contributions to computer science, including the Turing Award in 1983 and the National Medal of Technology in 1998.</p>
+            <div class="text-image">
+                <div>
+                    <p>Dennis Ritchie was an American computer scientist who is best known for his contributions to the development of the Unix operating system and the C programming language.</p>
+                    <p>He was born on September 9, 1941, in Bronxville, New York, and passed away on October 12, 2011. Ritchie received his bachelor's degree in physics from Harvard University in 1963 and his Ph.D. in computer science from the Massachusetts Institute of Technology (MIT) in 1968. He then joined Bell Labs, where he began working on the development of Unix, along with his colleague Ken Thompson.</p>
+                    <p>Ritchie played a key role in the development of the C programming language, which was used to write the first version of Unix. C became one of the most widely used programming languages in the world and has influenced the development of many other programming languages. Ritchie was also a co-author of the book "The C Programming Language," which is often referred to as the "bible" of the C programming language.</p>
+                    <p>In addition to his work on Unix and C, Ritchie also contributed to several other areas of computer science, including algorithms, software tools, and operating systems. Ritchie received many awards and honors for his contributions to computer science, including the Turing Award in 1983 and the National Medal of Technology in 1998.</p>
+                </div>
+                <img src="assets/imgs/dennis.png" alt="Dennis Ritchie">
+            </div>
+            
+            
         </div>
 
 

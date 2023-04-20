@@ -2,9 +2,9 @@
     $name = 'Create Files';
     include 'assets/php/nav.php';
 ?>
-    <main>
+    <main class="main1">
         <div>
-            <h1>Some Title</h1>
+            <h1>Making Files</h1>
         </div>
         <div class="jumpLinks">
         <ul class="linksUl">
@@ -14,7 +14,7 @@
         </ul>
     </div>
         <div>
-            <h2>Some Title</h2>
+            <h2>Build files</h2>
             <ol>
                 <li>
                     <p>To create an ordinary file on a Unix system using the vi editor, you can use the following
@@ -64,16 +64,18 @@
             </ol>
 
             <p>Variables are defined as : </p>
-            <p>variable_name=variable_value</p>
+            <div class="snippet">
+            <pre><code class="language-bash">
+                # Making some variables
+
+                variable_name=variable_value
+            </code></pre> </div>
+    
             <p>To access a variable in Unix, we simply need to prepend its name with a '$' symbol
                 e.g to print the value of the 'PATH' environment variable, we would write:
 
                 <div class="snippet">
-            <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
-
-                echo $PATH
-            </code></pre> </div>
+            
                 
             </p>
         </div>

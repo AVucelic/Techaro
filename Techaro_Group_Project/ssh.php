@@ -3,7 +3,7 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
-    <main  class="sshMain">
+    <main  class="main1">
 
         <div>
             <h1 class="sshTitle">What is SSH?</h1>
@@ -17,11 +17,13 @@
     </div>
         <div>
             <h2 class = "sshH2">The SSH protocol</h2>
-            <p>The SSH protocol uses encryption to secure the connection between a client and a server. All user
-                authentication, commands, output, and file transfers are encrypted to protect against attacks in the
-                network.</p>
-            <img src="assets/imgs/ssh.png" alt="SSH Protocol">
-
+            <div class="text-image">
+                <p>The SSH protocol uses encryption to secure the connection between a client and a server. All user
+                    authentication, commands, output, and file transfers are encrypted to protect against attacks in the
+                    network.</p>
+                <img src="assets/imgs/ssh.png" alt="SSH Protocol">
+            </div>
+            
         </div>
         <div>
             <h2 class = "sshH2">History of the SSH protocol</h2>

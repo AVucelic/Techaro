@@ -2,9 +2,10 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
-    <main>
+    <main class="main1">
         <div>
             <h1>Tutorial</h1>
+<div>
             <div class="jumpLinks">
         <ul class="linksUl">
             <li><a class="link" href="#">Jump Link</a></li>
@@ -12,6 +13,7 @@
             <li><a class="link" href="#">Jump Link</a></li>
         </ul>
     </div>
+
         </div>
         <div>
             <ol>

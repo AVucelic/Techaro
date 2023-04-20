@@ -3,7 +3,7 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
-    <main class="sshMain">
+    <main class="main1">
 
         <div>
             <h1 class="sshTitle">SSH Commands</h1>

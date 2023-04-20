@@ -3,15 +3,19 @@
     $name = 'Directory Structure';
     include 'assets/php/nav.php';
 ?>
-    <main class="sshMain">
-        
+
+    <main class="main1">
+
         <div>
             <h1 class="sshTitle">Directory structure</h1>
             <h2 class = "sshH2">General</h2>
-            <p>All  files are grouped  in the directory structure.<br>
-            The file-system is arranged in a hierarchical structure (inverted tree).<br>
-            <b>Root</b>- top of the hierarchy (denoted with a slash <b>/</b> ) </p>
-            <img src="assets/imgs/dir_struc.png" alt="Directorhy Structure ">
+            <div class="text-image">
+                <p>All  files are grouped  in the directory structure.<br>
+                The file-system is arranged in a hierarchical structure (inverted tree).<br>
+                <b>Root</b>- top of the hierarchy (denoted with a slash <b>/</b> ) </p>
+                <img src="assets/imgs/dir_struc.png" alt="Directorhy Structure ">
+            </div>
+            
         </div>
 
         <div>
