@@ -2,11 +2,17 @@
     $name = 'Commands';
     include 'assets/php/nav.php';
 ?>
-    <main>
     <main class="main1">
-        <div class>
+        <div>
             <h1 >Unix Commands & File Manipulation</h1>
-            <h2>COMMANDS</h2>
+            <div class="jumpLinks">
+                <ul class="linksUl">
+                    <li><a class="link" href="#section_Commands">Commands</a></li>
+                    <li><a class="link" href="#section_Manipulate">File Manipulation</a></li>
+                    <li><a class="link" href="#section_Wildcards">Wildcards</a></li>
+                </ul>
+            </div>
+            <h2 id="section_Commands">COMMANDS</h2>
             
                 <p class="p1"> List files and directories: </p>
 
@@ -16,7 +22,7 @@
 
                 % ls -> ls(list)    
             </code></pre> </div>
-        </div>
+        
 
                  <!-- <p class="p2"> % ls -> ls(list) </p> -->
                 <p class="p1"> List all files and directories:  </p>
@@ -94,7 +100,7 @@
             
         </div>
         <div>
-            <h2>MANIPULATING FILES</h2>
+            <h2 id="section_Manipulate">MANIPULATING FILES</h2>
             
                 <p class="p1">To copy file1 and call it file2: </p>
                     
@@ -292,7 +298,7 @@
 
 
 
-            <h2>WILDCARDS</h2>
+            <h2 id="section_Wildcards">WILDCARDS</h2>
             <p class="p1">	Match any number of characters: </p>
              
                 

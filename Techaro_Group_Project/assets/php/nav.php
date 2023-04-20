@@ -24,4 +24,4 @@
         </div>
         <div id="menu-background"></div>
     </div>
-    <script src="assets/js/home-navbar.js"></script>
+<script src="assets/js/home-navbar.js"></script>
