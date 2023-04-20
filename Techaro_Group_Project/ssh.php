@@ -86,11 +86,11 @@
                 ) as seen in the following message:<br></p>
 
                 <div class="snippet">
-            <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                <pre><code class="language-bash">
+                    # Testing Unix (Bash) code here
 
-                Warning: Permanently added 'sample.ssh.com' (DSA) to the list of  known hosts.
-            </code></pre> </div>
+                    Warning: Permanently added 'sample.ssh.com' (DSA) to the list of  known hosts.
+                </code></pre> </div>
                 
 
             
