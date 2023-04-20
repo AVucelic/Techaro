@@ -3,6 +3,7 @@
     $name = 'Directory Structure';
     include 'assets/php/nav.php';
 ?>
+
     <main class="main1">
 
         <div>

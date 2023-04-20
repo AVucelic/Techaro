@@ -4,7 +4,19 @@
 ?>
     <main class="main1">
         <div>
+
+           
+            <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+        </ul>
+    </div>
+    <div>
+
             <h1>What is a Network?</h1>
+
             <h2>Networking</h2>
             <div class="text-image">
                 <img src="assets/imgs/network_comp.png" alt="Networking">

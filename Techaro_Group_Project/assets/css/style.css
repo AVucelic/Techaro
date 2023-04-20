@@ -141,6 +141,7 @@ footer{
     grid-template-columns: auto auto auto;
     background-color: #ee9a86;
     padding: 10px;
+    margin-top: 3em;
 }
 .grid-item{
     border: 1px solid #F0623D;
@@ -212,7 +213,11 @@ footer{
     text-decoration: none;
     margin-right: 30px;
 
+
 }
+
+
+
 /*Style for text and iamge*/
 .text-image{
     display: flex;
@@ -223,5 +228,6 @@ footer{
 }
 .text-image>img{
     object-fit: cover;
+
 
 }

@@ -8,6 +8,13 @@
         <div>
             <h1 class="sshTitle">What is SSH?</h1>
         </div>
+        <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+        </ul>
+    </div>
         <div>
             <h2 class = "sshH2">The SSH protocol</h2>
             <div class="text-image">
