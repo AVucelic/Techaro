@@ -6,6 +6,13 @@
         <div>
             <h1>Making Files</h1>
         </div>
+        <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+        </ul>
+    </div>
         <div>
             <h2>Build files</h2>
             <ol>

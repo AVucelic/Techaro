@@ -6,6 +6,13 @@
     <main class="main1">
         <div class>
             <h1 >Unix Commands & File Manipulation</h1>
+            <div class="jumpLinks">
+                <ul class="linksUl">
+                    <li><a class="link" href="#section_Commands">Commands</a></li>
+                    <li><a class="link" href="#section_Manipulate">File Manipulation</a></li>
+                    <li><a class="link" href="#section_Wildcards">Wildcards</a></li>
+                </ul>
+            </div>
             <h2>COMMANDS</h2>
             
                 <p class="p1"> List files and directories: </p>

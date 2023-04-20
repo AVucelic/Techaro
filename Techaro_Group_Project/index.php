@@ -5,6 +5,13 @@
     <main class="main1">
         <div>
             <h1>Homepage</h1>
+            <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+        </ul>
+    </div>
             <p>
                 Unix is a computer Operating System[1] which is capable of handling activities from multiple users at the
                 same time. Oldest operating system that has ever existed. Run multiple application programs simultaneously.
