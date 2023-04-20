@@ -143,10 +143,53 @@ footer{
     position: sticky;
     display: inline-block;
     border: #F0623D solid 2px;
+    padding-right: 30px;
 }
 
 .linksUl{
     list-style-type: none;
+}
+
+.linksUl li {
+    position: relative;
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.linksUl li:after,
+.linksUl li:before {
+    content: "";
+    position: absolute;
+    display: block;
+    border: 0px solid transparent;
+    width: 0%;
+    height: 0%;
+    transition: all 0.3s ease;
+}
+
+.linksUl li::after {
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: -12px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+}
+
+.linksUl li:before {
+    width: 0%;
+    height: 0%;
+    right: 15px;
+    bottom: 0;
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+
+.linksUl li:hover::before,
+.linksUl li:hover::after {
+    width: 10px;
+    height: 10px;
+    border-color: #F0623D;
 }
 
 .link{
