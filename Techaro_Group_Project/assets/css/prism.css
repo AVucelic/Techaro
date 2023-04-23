@@ -338,3 +338,10 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
 	text-decoration: none;
 }
 
+#now-it-works {
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+}
