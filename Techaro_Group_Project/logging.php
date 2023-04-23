@@ -2,6 +2,7 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
+    <title>Logging</title>
     <main class="main1">
         <div>
             <h1>Starting Linux</h1>

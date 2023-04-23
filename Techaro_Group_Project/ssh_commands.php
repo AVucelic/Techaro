@@ -3,10 +3,11 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
+    <title>Ssh Commands</title>
     <main class="main1">
 
         <div>
-            <h1 class="sshTitle">SSH Commands</h1>
+            <h1>SSH Commands</h1>
         </div>
         <div>
             <h2 class = "sshH2">Secure File Copy - scp </h2>

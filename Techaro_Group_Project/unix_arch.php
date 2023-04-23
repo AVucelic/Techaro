@@ -2,6 +2,7 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
+    <title>Unix Architecture</title>
     <main class="main1">
         <div>
             <!-- Title -->

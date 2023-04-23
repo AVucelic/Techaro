@@ -2,6 +2,7 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
+    <title>Permissions</title>
     <main class="main1"> 
         <div> 
         <h1>Permissions in Unix</h1>

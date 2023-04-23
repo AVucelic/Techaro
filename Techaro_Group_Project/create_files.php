@@ -2,6 +2,7 @@
     $name = 'Create Files';
     include 'assets/php/nav.php';
 ?>
+    <title>Creating Files</title>
     <main class="main1">
         <div>
             <h1>Making Files</h1>

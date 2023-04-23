@@ -2,6 +2,7 @@
     $name = 'Commands';
     include 'assets/php/nav.php';
 ?>
+<title>Commands</title>
     <main>
     <main class="main1">
         <div class>
