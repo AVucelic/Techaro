@@ -3,6 +3,86 @@ body{
     background:#2E4A76;
     font-size: 18px;
 }
+nav {    
+    width: 100%;  
+    background-color: #0071b4;
+    color: white;
+    font-size: 12px;
+    height: 10em;
+    
+}
+nav ul {
+    font-size: 2em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav li {
+    margin-left: 2%;
+    display: inline;
+}
+nav > li {
+    width: 10%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    font-weight: normal;
+    background-color: white;
+    color: #0071b4;
+    width: 11rem;
+    padding: 1%;
+}
+/*Rules for the links insdie the dropdown menu */
+.dropdown-content a {
+    
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+    color: #0071b4;
+    border-top:4px solid #fff;
+    
+    display: block;
+    text-align: left;
+    font-weight: normal;
+    
+}
+/*Making sure everything in the dropdown turns out nice*/
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content a:hover{
+    
+    transition: all ease .5s;
+    border-top: 4px solid #0071b4;
+  
+}
+/*Rules for the button of the nav bar*/
+nav ul li a {
+    border-top: 4px solid #0071b4;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a:hover{
+    transition: all ease .5s;
+    
+    border-top: 4px solid #fff;
+}
+/*Making sure the dropdown conent stays shown while the enire box is shown*/
+.dropdown:hover .dropdown-content {
+   
+    display: block;
+}
+
+
+
+
+
 /*
 main > div{
     background-color: #FEF1DB;
