@@ -4,7 +4,7 @@
     $name = 'Computer Networks';
     include 'assets/php/nav.php';
 ?>
-
+<title>Computer Networks</title>
     <main class="main1">
         <div>
             <h1>Computer Networks</h1>

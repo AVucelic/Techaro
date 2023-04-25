@@ -2,6 +2,7 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
+<title>History</title>
     <main class="main1">
         <!-- Style this to look like the thing in the document outline-->
 
@@ -17,50 +18,50 @@
         <div class="container">
 
             <!--1969-->
-            <div >
+            <div  class="grid-item">
                 <p>1969</p>
                 <p>The Beginning</p>
-                <p>Ken Thompson, Dennis Ritchie and others started working on the "little-used PDP-7 in a corner" at Bell Labs and what was to become UNIX</p>
+                <p>Ken Thompson, Dennis Ritchie and others started working on the "little-used PDP-7 in a corner" at Bell Labs and what was to become UNIX.</p>
             </div>
 
-            <div>
+            <div class="grid-item">
                 <p>1971</p>
                 <p>First Edition</p>
-                <p> had a assembler for a PDP-11/20, file system, fork(), roff and ed
+                <p> Had an assembler for a PDP-11/20, file system, fork(), roff and ed
                     It was used for text processing of patent documents.
                     </p>
             </div>
 
-            <div>
+            <div class="grid-item">
                 <p>1973</p>
                 <p>Fourth Edition</p>
                 <p>It was rewritten in C. This made it portable and changed the history of OS's.</p>
             </div>
-            <div>
+            <div class="grid-item">
                 <p>1975</p>
                 <p></p>
                 <p>Unix V6 was released and became very popular. It was free and was distributed with its source code.</p>
             </div>
 
-            <div>
+            <div class="grid-item">
                 <p>Early 1980's</p>
                 <p></p>
-                <p>the market for UNIX systems had grown enough to be noticed  by industry analysts and researchers. 
+                <p>The market for UNIX systems had grown enough to be noticed  by industry analysts and researchers. 
                     "What is a UNIX system?" changed to "Is a UNIX system suitable for business and commerce?"
                     </p>
             </div>
 
-            <div>
+            <div class="grid-item">
                 <p>2007</p>
                 <p></p>
-                <p>Apple Mac OS X certified to UNIX 03</p>
+                <p>Apple Mac OS X certified to UNIX 03.</p>
             </div>
         </div>
         <!--People-->
         <div>
             <h2>LINUS TORVALDS</h2>
             <div class="text-image">
-                <div>
+                <div class="text2">
                     <p>Linus Torvalds is a software engineer and the creator of the Linux operating system. He was born on December 28, 1969, in Helsinki, Finland</p>
                     <p>Torvalds grew up in a family of journalists and studied computer science at the University of Helsinki.•	In 1991, at the age of 21, Torvalds started working on a new operating system as a hobby project. He named the project "Linux," which is a combination of his first name and the word Unix.</p>
                     <p>Over the years, Linux has grown into a popular and powerful operating system used by individuals, businesses, and organizations around the world. Today, Linux powers a wide range of devices, from smartphones and laptops to servers and supercomputers.•	In addition to his work on Linux, Torvalds has also contributed to several other open-source projects, including Git, a version control system widely used in software development.</p>
@@ -76,7 +77,7 @@
             <h2>KEN THOMPSON</h2>
             <div class="text-image">
                 <img src="assets/imgs/ken.png" alt="Ken Thompson">
-                <div>
+                <div class="text1">
                     <p>Ken Thompson is an American computer scientist who is best known for his contributions to the development of the Unix operating system and the programming languages B and C</p>
                     <p>He was born on February 4, 1943, in New Orleans, Louisiana. Thompson received his bachelor's degree in electrical engineering from the University of California, Berkeley, in 1965. He then went on to earn his master's degree and Ph.D. in computer science from the same institution.</p>
                     <p>In the late 1960s, Thompson worked at Bell Labs, where he began developing the Unix operating system along with his colleague Dennis Ritchie. Unix was a ground-breaking operating system that introduced many new concepts, such as a hierarchical file system and the use of pipes for interprocess communication. Thompson also played a key role in the development of the B programming language, which was used to write the first version of Unix.</p>
@@ -90,7 +91,7 @@
         <div>
             <h2>DENNIS RITCHIE</h2>
             <div class="text-image">
-                <div>
+                <div class="text2">
                     <p>Dennis Ritchie was an American computer scientist who is best known for his contributions to the development of the Unix operating system and the C programming language.</p>
                     <p>He was born on September 9, 1941, in Bronxville, New York, and passed away on October 12, 2011. Ritchie received his bachelor's degree in physics from Harvard University in 1963 and his Ph.D. in computer science from the Massachusetts Institute of Technology (MIT) in 1968. He then joined Bell Labs, where he began working on the development of Unix, along with his colleague Ken Thompson.</p>
                     <p>Ritchie played a key role in the development of the C programming language, which was used to write the first version of Unix. C became one of the most widely used programming languages in the world and has influenced the development of many other programming languages. Ritchie was also a co-author of the book "The C Programming Language," which is often referred to as the "bible" of the C programming language.</p>

@@ -2,6 +2,7 @@
     $name = 'Homepage';
     include 'assets/php/nav.php';
 ?>
+    <title>Networking</title>
     <main class="main1">
         <div>
 
