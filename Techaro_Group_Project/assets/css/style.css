@@ -3,7 +3,8 @@ body{
     background:#2E4A76;
     font-size: 18px;
 }
-nav {    
+
+/* nav {    
     width: 100%;  
     background-color: #0071b4;
     color: white;
@@ -39,7 +40,7 @@ nav > li {
     padding: 1%;
 }
 /*Rules for the links insdie the dropdown menu */
-.dropdown-content a {
+/* .dropdown-content a {
     
     margin-bottom: 5%;
     font-size: 1.2rem;
@@ -50,9 +51,9 @@ nav > li {
     text-align: left;
     font-weight: normal;
     
-}
+} */
 /*Making sure everything in the dropdown turns out nice*/
-li.dropdown {
+/* li.dropdown {
     display: inline-block;
 }
 .dropdown-content a:hover{
@@ -62,7 +63,7 @@ li.dropdown {
   
 }
 /*Rules for the button of the nav bar*/
-nav ul li a {
+/* nav ul li a {
     border-top: 4px solid #0071b4;
     font-weight: bold;
     display: inline-block;
@@ -72,12 +73,12 @@ nav ul li a:hover{
     transition: all ease .5s;
     
     border-top: 4px solid #fff;
-}
+} */
 /*Making sure the dropdown conent stays shown while the enire box is shown*/
-.dropdown:hover .dropdown-content {
+/* .dropdown:hover .dropdown-content {
    
     display: block;
-}
+} */
 
 
 
@@ -100,7 +101,7 @@ h1{
     color: #ffffff;
     text-align: center;
     font-size: 80px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
 }
 
 /*styling for h2 on sshTitle.html, dir_stru.html*/
@@ -115,8 +116,10 @@ h2{
 
 /*styling for main on sshTitle.html, dir_stru.html*/
 .main1{
+    margin-left: 10%;
+    margin-right: 10%;
     max-width: 1232 00px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 50px 20px;
 }
 
@@ -163,8 +166,10 @@ p{
 /* for the overall margins of the content*/
 body{
     background-color: #2E4A76;
-    margin-left: 10%;
-    margin-right: 10%;
+    
+}
+main{
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
 }

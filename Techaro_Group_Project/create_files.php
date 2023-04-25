@@ -1,6 +1,6 @@
 <?php
     $name = 'Create Files';
-    include 'assets/php/nav.php';
+    include 'assets/php/nav2.php';
 ?>
     <title>Creating Files</title>
     <main class="main1">
