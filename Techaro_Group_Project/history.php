@@ -5,7 +5,18 @@
 <title>History</title>
     <main class="main1">
         <!-- Style this to look like the thing in the document outline-->
+
+        <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+        </ul>
+    </div>
+        <div>
+
         <div class="container">
+
             <!--1969-->
             <div  class="grid-item">
                 <p>1969</p>

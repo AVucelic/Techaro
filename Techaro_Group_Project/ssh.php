@@ -9,6 +9,13 @@
         <div>
             <h1>What is SSH?</h1>
         </div>
+        <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+        </ul>
+    </div>
         <div>
             <h2 class = "sshH2">The SSH protocol</h2>
             <div>
@@ -80,11 +87,11 @@
                 ) as seen in the following message:<br></p>
 
                 <div class="snippet">
-            <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                <pre><code class="language-bash">
+                    # Testing Unix (Bash) code here
 
-                Warning: Permanently added 'sample.ssh.com' (DSA) to the list of  known hosts.
-            </code></pre> </div>
+                    Warning: Permanently added 'sample.ssh.com' (DSA) to the list of  known hosts.
+                </code></pre> </div>
                 
 
             

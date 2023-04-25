@@ -8,6 +8,13 @@
             <!-- Title -->
             <h1>UNIX ARCHITECTURE</h1>
         </div>
+        <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#">Jump Link</a></li>
+        </ul>
+    </div>
         <!-- Content 1 -->
         <div>
             <h2>Basic of Linux</h2>
