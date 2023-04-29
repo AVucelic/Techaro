@@ -31,7 +31,7 @@
         <div>
             <h2>Core Parts</h2>
             <div class="text-image">
-                <div>
+                <div class="text2">
                     <p>Made up of three parts: </p>
                     <ol>
                         <li>THE KERNEL</li>

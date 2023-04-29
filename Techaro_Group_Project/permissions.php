@@ -18,9 +18,9 @@
 
             <h2>SETS REPRESENTING DIFFERENT LEVELS OF OWNERSHIP</h2>
             <div class="container">
-                <div class="grid-item">Permission</div>
-                <div class="grid-item">Files</div>
-                <div class="grid-item">Directories</div>
+                <div class="grid-item">PERMISSIONS</div>
+                <div class="grid-item">FILES</div>
+                <div class="grid-item">DIRECTORIES</div>
                 <div class="grid-item">r</div>              
                 <div class="grid-item">can read the file</div>
                 <div class="grid-item">can ls the directory</div>
@@ -86,9 +86,9 @@
             <!-- Make a 3 x 4 box -->
             <div>
                 <div class="container">
-                    <div class="grid-item">Access class</div>
-                    <div class="grid-item">Operator</div>
-                    <div class="grid-item">Access Type</div>
+                    <div class="grid-item">ACCESS CLASS</div>
+                    <div class="grid-item">OPERATOR</div>
+                    <div class="grid-item">ACCESS TYPE</div>
                     <div class="grid-item">u (user)</div>
                     <div class="grid-item">+ (add access)</div>
                     <div class="grid-item">r (read)</div>
