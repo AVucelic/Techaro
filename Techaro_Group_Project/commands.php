@@ -244,7 +244,7 @@
 
 
             <p class="p1">	Redirecting standard input from a file:</p>
-                <p class="p2"> </p>
+                
 
                 <div class="snippet">
             <pre><code class="language-bash">
