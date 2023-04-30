@@ -2,9 +2,9 @@
 
 <?php
     $name = 'Computer Networks';
-    include 'assets/php/nav.php';
+    include 'assets/php/nav2.php';
 ?>
-
+<title>Computer Networks</title>
     <main class="main1">
         <div>
             <h1>Computer Networks</h1>
@@ -62,11 +62,14 @@
         <div>
             <h2>Key Objectives of Creating and Deploying a Computer Network</h2>
             <div class="text-image">
-            <p>There is no industry—education, retail, finance, tech, government, or healthcare—that can survive without
-                well-designed computer networks. The bigger an organization, the more complex the network becomes.
-                Before taking on the onerous task of creating and deploying a computer network, here are some key
-                objectives that must be considered.</p>
-            <img src="assets/imgs/devlop_network.png" alt="">
+                <div class="text2">
+                    <p>There is no industry—education, retail, finance, tech, government, or healthcare—that can survive without
+                        well-designed computer networks. The bigger an organization, the more complex the network becomes.
+                        Before taking on the onerous task of creating and deploying a computer network, here are some key
+                        objectives that must be considered.
+                    </p>
+                </div>
+                <img src="assets/imgs/devlop_network.png" alt="">
             </div>
         </div>
         <?php

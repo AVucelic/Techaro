@@ -1,7 +1,8 @@
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav.php';
+    include 'assets/php/nav2.php';
 ?>
+    <title>Tutorial</title>
     <main class="main1">
         <div>
             <h1>Tutorial</h1>

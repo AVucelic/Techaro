@@ -1,12 +1,13 @@
 
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav.php';
+    include 'assets/php/nav2.php';
 ?>
+    <title>SSH</title>
     <main  class="main1">
 
         <div>
-            <h1 class="sshTitle">What is SSH?</h1>
+            <h1>What is SSH?</h1>
         </div>
         <div class="jumpLinks">
         <ul class="linksUl">
@@ -17,11 +18,11 @@
     </div>
         <div>
             <h2 class = "sshH2">The SSH protocol</h2>
-            <div class="text-image">
+            <div>
                 <p>The SSH protocol uses encryption to secure the connection between a client and a server. All user
                     authentication, commands, output, and file transfers are encrypted to protect against attacks in the
                     network.</p>
-                <img src="assets/imgs/ssh.png" alt="SSH Protocol">
+                <img class="img2" src="assets/imgs/ssh.png" alt="SSH Protocol">
             </div>
             
         </div>
@@ -38,7 +39,7 @@
                 particularly around key management, as well as broader cybersecurity topics.
             </p>
             <p>
-                Today, the protocol is used for managing more than half of world’s web servers and practically every
+                Today, the protocol is used for managing more than half of world's web servers and practically every
                 Unix or Linux computer, on-premise and in the cloud. Information security specialists and system
                 administrators use it to configure, manage, maintain, and operate most firewalls, routers, switches, and
                 servers in the millions of mission-critical networks and environments of our digital world. It is also

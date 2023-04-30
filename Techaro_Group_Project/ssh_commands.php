@@ -1,12 +1,13 @@
 
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav.php';
+    include 'assets/php/nav2.php';
 ?>
+    <title>Ssh Commands</title>
     <main class="main1">
 
         <div>
-            <h1 class="sshTitle">SSH Commands</h1>
+            <h1>SSH Commands</h1>
         </div>
         <div class="jumpLinks">
         <ul class="linksUl">

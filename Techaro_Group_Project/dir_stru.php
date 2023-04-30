@@ -1,13 +1,13 @@
 
 <?php
     $name = 'Directory Structure';
-    include 'assets/php/nav.php';
+    include 'assets/php/nav2.php';
 ?>
-
+    <title>Directory Structure</title>
     <main class="main1">
 
         <div>
-            <h1 class="sshTitle">Directory structure</h1>
+            <h1>Directory structure</h1>
             <h2 class = "sshH2">General</h2>
             <div class="text-image">
                 <p>All  files are grouped  in the directory structure.<br>
