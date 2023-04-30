@@ -1,7 +1,14 @@
 <?php
     $name = 'Commands';
-    include 'assets/php/nav2.php';
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
+
     <main class="main1">
         <div>
             <h1 >Unix Commands & File Manipulation</h1>
@@ -353,8 +360,6 @@
             </code></pre> </div>
         </div>
 
-        <footer> Copyright &copy; 2023. Techaro Group. All Rights Reserved.</footer>
-        
         
 <?php
     include "assets/php/footer.php";

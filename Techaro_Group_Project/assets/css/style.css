@@ -327,6 +327,7 @@ footer{
 }
 
 /*****media queries*****/
+
 @media screen and (max-width: 720px){
     body{
         margin-left: 0;
