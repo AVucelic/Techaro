@@ -10,3 +10,28 @@ function validateForm(){
     // If all questions have been answered, allow the form to be submitted
     return true;
 }
+
+function openSubMenu(index){
+    var subMenu = document.getElementsByClassName("sub-menu")[index];
+    if(subMenu.style.display == 'block'){
+      subMenu.style.display = 'none';
+    }else{
+      subMenu.style.display = 'block';
+    }
+
+}
+function openingMenu(){
+  var menu = document.getElementById("nav-menu");
+  console.log(menu);
+  if(menu.style.display == 'block'){
+      menu.style.display = 'none';
+  }else{
+      menu.style.display = 'block';
+  }
+
+
+}
+
+
+
+

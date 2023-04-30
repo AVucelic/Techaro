@@ -13,7 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    
 </head>
+
 <body>
     <nav>
         <img src="assets/imgs/logo.svg" alt="" class="logo">
