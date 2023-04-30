@@ -16,38 +16,6 @@
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        nav#nav-menu {
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        }
-        
-
-        .menu li {
-        position: relative;
-        }
-        #menu{
-            display:none;
-        }
-        #vertical-menu{
-            display:block;
-        }
-
-        
-        .sub-menu{
-            display: none;
-        }
-        .hamburger{
-            width: 100%;
-            background-color:orange; 
-        }
-       
-
-
-    </style>
     <script src="assets/js/code.js">
     </script>
 </head>
