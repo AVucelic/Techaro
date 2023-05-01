@@ -1,19 +1,26 @@
 
 <?php
     $name = 'Directory Structure';
-    include 'assets/php/nav2.php';
+
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <title>Directory Structure</title>
     <main class="main1">
 
         <div>
             <h1>Directory structure</h1>
             <h2 class = "sshH2">General</h2>
-            <div class="text-image">
+            <div>
                 <p>All  files are grouped  in the directory structure.<br>
                 The file-system is arranged in a hierarchical structure (inverted tree).<br>
                 <b>Root</b>- top of the hierarchy (denoted with a slash <b>/</b> ) </p>
-                <img src="assets/imgs/dir_struc.png" alt="Directorhy Structure ">
+                <img src="assets/imgs/dir_struc.png" alt="Directorhy Structure " id="wider">
             </div>
             
         </div>

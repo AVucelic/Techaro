@@ -1,29 +1,33 @@
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav2.php';
+    
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <title>Networking</title>
     <main class="main1">
-        <div>
+
 
            
-            <div class="jumpLinks">
-        <ul class="linksUl">
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-        </ul>
-    </div>
+            
     <div>
 
             <h1>What is a Network?</h1>
 
             <h2>Networking</h2>
             <div class="text-image">
-                <img src="assets/imgs/network_comp.png" alt="Networking">
-                <p>A computer network is a system that connects two or more computing devices for transmitting and sharing
+                <div class="text2">
+                    <p>A computer network is a system that connects two or more computing devices for transmitting and sharing
                 information. Computing devices include everything from a mobile phone to a server. These devices are
                 connected using physical wires such as fiber optics, but they can also be wireless.</p>
+                </div>
+                
+                <img src="assets/imgs/network_comp.png" alt="Networking">
             </div>
             
         </div>

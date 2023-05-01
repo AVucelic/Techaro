@@ -2,20 +2,19 @@
 
 <?php
     $name = 'Computer Networks';
-    include 'assets/php/nav2.php';
+   
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
 <title>Computer Networks</title>
     <main class="main1">
         <div>
             <h1>Computer Networks</h1>
-        </div>
-        <div class="jumpLinks">
-
-            <ul class="linksUl">
-                <li><a class="link" href="#">Jump Link</a></li>
-                <li><a class="link" href="#">Jump Link</a></li>
-                <li><a class="link" href="#">Jump Link</a></li>
-            </ul>
         </div>
 
         <div>

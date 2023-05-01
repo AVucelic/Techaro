@@ -1,16 +1,17 @@
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav2.php';
+    
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <main class="main1">
         <div>
             <h1>Homepage</h1>
-            <div class="jumpLinks">
-        <ul class="linksUl">
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-        </ul>
     </div>
             <p>
                 Unix is a computer Operating System[1] which is capable of handling activities from multiple users at the

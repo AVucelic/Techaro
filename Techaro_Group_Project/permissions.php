@@ -1,23 +1,29 @@
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav2.php';
+    
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <title>Permissions</title>
     <main class="main1"> 
         <div> 
         <h1>Permissions in Unix</h1>
         <div class="jumpLinks">
         <ul class="linksUl">
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#table">Ownership</a></li>
+            <li><a class="link" href="#change">Changing Permissions</a></li>
         </ul>
     </div>
                 <!-- Make a 3 x 4 box -->
             
 
-            <h2>SETS REPRESENTING DIFFERENT LEVELS OF OWNERSHIP</h2>
-            <div class="container">
+            <h2>Sets Repersenting Differnt Levles Of Ownership</h2>
+            <div class="container_s" id="table">
                 <div class="grid-item">PERMISSIONS</div>
                 <div class="grid-item">FILES</div>
                 <div class="grid-item">DIRECTORIES</div>
@@ -79,13 +85,13 @@
         
         </div>
 
-        <div>
-            <h2>CHANGING PERMISSIONS</h2>
+        <div id="change">
+            <h2>Changing Permissions</h2>
             <p class="p1">To modify file and directory permissions on a Unix-like operating system, you can use the chmod (change mode) command. The chmod command allows you to change the permissions for the owner of a file or directory (represented by "u"), the group owner of a file or directory (represented by "g"), or other users on the system (represented by "o").You can add (+) or subtract (-) read, write, and execute permissions for each of these categories.</p>
             <p class="p1">SYMBOLIC METHOD- lets you specify permissions with single letter abbreviations. A chmod command using this method consists of at least three parts from the following lists:</p>
             <!-- Make a 3 x 4 box -->
             <div>
-                <div class="container">
+                <div class="container_s">
                     <div class="grid-item">ACCESS CLASS</div>
                     <div class="grid-item">OPERATOR</div>
                     <div class="grid-item">ACCESS TYPE</div>
@@ -116,7 +122,6 @@
                 
             </div>
 
-            <footer> Copyright &copy; 2023. Techaro Group. All Rights Reserved.</footer>
         </div>
 <?php
     include "assets/php/footer.php";

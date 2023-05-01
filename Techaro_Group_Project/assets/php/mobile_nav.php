@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $name; ?></title>
-    <link href="assets/css/home-navbar.css" rel="stylesheet" />
     <link href="assets/css/prism.css" rel="stylesheet" />
-    <link href="assets/css/snippet.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,10 +20,18 @@
 
 <body>
     <div class="hamburger">
-        <a href="javascript:void(0);" class="icon" onclick="openingMenu();" >
+        <div>
+            <a href="javascript:void(0);" class="icon" onclick="openingMenu();" >
                     <i class="fa fa-bars"></i>
-        </a>
+            </a>
+        </div>
+        
+        <div class="fix">
+            <img src="assets/imgs/logo.svg" alt="" class="logo">
+        </div>
+        
     </div>
+    
     
     <nav id="nav-menu">
         
@@ -41,7 +47,7 @@
                 <a href="javascript:void(0)" class="dropbtn" onclick="openSubMenu(0);">Basics of Linux ></a>
                 <ul class="sub-menu">
                     <li><a href="unix_arch.php">Unix Archteicture</a></li>
-                    <li><a href="dir_stru">Directory Structure</a></li>
+                    <li><a href="dir_stru.php">Directory Structure</a></li>
                 </ul>
             </li>
             <li>
@@ -76,8 +82,9 @@
                 <a href="quiz.php">Quiz</a>
             </li>
         </ul>
+        
+
 
 
     </nav>    
-</body>
-</html>
+    

@@ -1,8 +1,15 @@
 
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav2.php';
+    
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <title>SSH</title>
     <main  class="main1">
 
@@ -11,13 +18,13 @@
         </div>
         <div class="jumpLinks">
         <ul class="linksUl">
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#pro">The SSH Protocol</a></li>
+            <li><a class="link" href="#his">History of the SSH Protocol</a></li>
+            <li><a class="link" href="#lin">Using the Linux client</a></li>
         </ul>
     </div>
         <div>
-            <h2 class = "sshH2">The SSH protocol</h2>
+            <h2 class = "sshH2" id="pro">The SSH Protocol</h2>
             <div>
                 <p>The SSH protocol uses encryption to secure the connection between a client and a server. All user
                     authentication, commands, output, and file transfers are encrypted to protect against attacks in the
@@ -26,8 +33,8 @@
             </div>
             
         </div>
-        <div>
-            <h2 class = "sshH2">History of the SSH protocol</h2>
+        <div id="his">
+            <h2 class = "sshH2">History of the SSH Protocol</h2>
             <p>
                 The Secure Shell protocol was originally developed by Tatu Ylonen in 1995 in response to a hacking
                 incident in the Finnish university network. The incident triggered Ylonen to study cryptography and
@@ -54,7 +61,7 @@
                 executing commands on the remote machine.
             </p>
         </div>
-        <div>
+        <div id="lin">
             <h2 class = "sshH2">Using the Linux client</h2>
             <p>
                 Linux typically uses the OpenSSH client. The ssh command to log into a remote machine is very simple. To

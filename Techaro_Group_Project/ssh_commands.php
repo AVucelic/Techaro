@@ -1,8 +1,15 @@
 
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav2.php';
+    
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <title>Ssh Commands</title>
     <main class="main1">
 
@@ -11,12 +18,14 @@
         </div>
         <div class="jumpLinks">
         <ul class="linksUl">
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#scp">Secure File Copy - scp</a></li>
+            <li><a class="link" href="#ftp">SSH File Transfer Protocol (SFTP): Get SFTP client & server</a></li>
+            <li><a class="link" href="#lin">SCP Command on Linux</a></li>
+            <li><a class="link" href="#sftp">SFTP Command on Linux</a></li>
+            <li><a class="link" href="#meth">Method</a></li>
         </ul>
     </div>
-        <div>
+        <div id="scp">
             <h2 class = "sshH2">Secure File Copy - scp </h2>
             <p>Scp is a program for copying files between computers. It uses the SSH protocol. It is included by default in most Linux and Unix distributions. It is also included in the Tectia SSH and OpenSSH packages.</p>
             <p><b>Basic usage of scp is as follows:</b> </p>
@@ -58,13 +67,13 @@
 
             <p>This would fetch path/directory from the host, copying it to the current working directory (creating directory in current working directory).</p>
         </div>
-        <div>
+        <div id="ftp">
             <h2 class = "sshH2">SSH File Transfer Protocol (SFTP): Get SFTP client & server</h2>
             <p>SFTP (SSH File Transfer Protocol) is a secure file transfer protocol. It runs over the SSH protocol. It supports the full security and authentication functionality of SSH.</p>
             <p>SFTP has pretty much replaced legacy FTP as a file transfer protocol, and is quickly replacing FTP/S. It provides all the functionality offered by these protocols, but more securely and more reliably, with easier configuration. There is basically no reason to use the legacy protocols any more.</p>
             <p>SFTP also protects against password sniffing and man-in-the-middle attacks. It protects the integrity of the data using encryption and cryptographic hash functions, and autenticates both the server and the user.</p>
         </div>
-        <div>
+        <div id="lin">
             <h2 class = "sshH2">SCP Command on Linux</h2>
             <p>The scp command is a file transfer program for SFTP in Linux. The scp command line interface was designed after the old rcp command in BSD Unix. The scp also usually comes with the OpenSSH package.</p>
             <p>Its typical use is:</p>
@@ -93,7 +102,7 @@
             
         
         </div>
-        <div>
+        <div id="sftp">
             <h2 class = "sshH2">SFTP Command on Linux</h2>
             <p>The sftp command in Linux is a client program for SFTP.  The  sftp command line interface was designed to be similar to the ftp command. The sftp command is typically part of the OpenSSH package.</p>
             <p>UPLOADING/DOWNLOADING FILES AND DIRECTORIES TO SERVER 
@@ -101,7 +110,7 @@
                 </p>
             <p>Use the SFTP or SCP client of your choice. Click "Enter/Return" on your keyboard after each command. Note: Commands are case-sensitive and all alphabetic characters must be lowercase.</p>
             <!--Make 2x3 grid-->
-            <div>
+            <div id="meth">
                 <div>
                     <h2 class = "sshH2" >Method</h2>
                     <div class = "liDirStru"><b>SFTP - Commands</b></div>
