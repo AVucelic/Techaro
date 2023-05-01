@@ -1,7 +1,14 @@
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav2.php';
+    
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <main class="main1">
         <div>
             <h1>Quiz</h1>
@@ -100,7 +107,7 @@
 
                 
 
-                <input type="submit" name="submit" value="Submit">
+                <input type="submit" name="submit" value="Submit" class="submit">
             </form>
 
             <?php
@@ -137,7 +144,7 @@
                         }
                         
                     }
-                    echo $score . "/ 10";
+                    echo "<p class='score'>$score . '/ 10'</p>";
                     mysqli_close($mysqli);
 
 

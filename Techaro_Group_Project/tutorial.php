@@ -1,26 +1,27 @@
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav2.php';
+    
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <title>Tutorial</title>
     <main class="main1">
         <div>
             <h1>Tutorial</h1>
-<div>
-            <div class="jumpLinks">
-        <ul class="linksUl">
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-        </ul>
-    </div>
+        <div>
+            
 
         </div>
         <div>
             <ol>
                 <li>First make sure you have a specific type of server you want to upload to. This can be a free online version like AWS. Just make sure it is a reliable web hosting company.</li>
-                <li>Next you can connect to the server by using the ssh or sftp command and connecting to the server</li>
-                <pre><code class="language-bash">
+                <li><p>Next you can connect to the server by using the ssh or sftp command and connecting to the server</p>
+                <div><pre><code class="language-bash">
                     # Connecting to your server
 
                     $ ssh username@servername
@@ -30,31 +31,31 @@
 
                     #then enter in your own password
 
-                </code></pre> </div>
-                <li>The next step is to make sure you are in the correct directory in order to properly put your website on the web. This can be done using the ls commands and cd command.</li>
-                <pre><code class="language-bash">
+                </code></pre> </div></li>
+                <li><p>The next step is to make sure you are in the correct directory in order to properly put your website on the web. This can be done using the ls commands and cd command.</p>
+                <div><pre><code class="language-bash">
                     # looking in your server
 
                     $ ls
                     #some folders and files 
                     #might need to change directory
                     $ cd
-                </code></pre> </div>
+                </code></pre> </div></li>
                 
-                <li>Once in the correct directory, copy your directory or files to the correct space. This can be done using either the scp or sftp commands. </li>
-                <pre><code class="language-bash">
+                <li><p>Once in the correct directory, copy your directory or files to the correct space. This can be done using either the scp or sftp commands.</p>
+                <div><pre><code class="language-bash">
                     # adding your content to the server can be a file or directory
 
                     scp localfile.txt username@servername:/remote/directory
 
-                </code></pre> </div>
-                <li>Once done your files should be accessible online. Make sure to check the permissions on the files and directories to allow those to access your information</li>
-                <pre><code class="language-bash">
+                </code></pre> </div> </li>
+                <li><p>Once done your files should be accessible online. Make sure to check the permissions on the files and directories to allow those to access your information</p>
+                <div><pre><code class="language-bash">
                     # chceking if everything has the write permisions 
 
                     $ ls -l
 
-                </code></pre> </div>
+                </code></pre> </div></li>
             </ol>
         </div>
 <?php

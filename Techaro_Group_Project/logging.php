@@ -1,28 +1,36 @@
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav2.php';
+    
 ?>
-    <title>Logging</title>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <main class="main1">
-        <div>
-            <h1>Some Title</h1>
-            <div class="jumpLinks">
-        <ul class="linksUl">
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-        </ul>
-    </div>
+            
       <div>
             <h1>Starting Linux</h1>
+            
+        </div>
+        <div class="jumpLinks">
+        <ul class="linksUl">
+            <li><a class="link" href="#tut">Login Tutorial</a></li>
+            <li><a class="link" href="#chng">Change Password</a></li>
+            <li><a class="link" href="#log">Logging Out</a></li>
+        </ul>
+    </div>
+        <div>
 
             <p>If your computer has the Unix operating system installed, all you need to do is power it on to start
                 using it. Upon powering on the computer, the operating system will begin to boot up, and eventually, it
                 will display a prompt asking you to log in. Logging in will give you access to the system, allowing you
                 to perform your daily tasks.</p>
         </div>
-        <div>
-            <h2>LOGIN TUTORIAL</h2>
+        <div id="tut">
+            <h2>Login Tutorial</h2>
             <ol>
                 <li>type your userid in the login prompt and press enter
                      <div class="snippet">
@@ -60,8 +68,8 @@
             </ol>
         </div>
 
-        <div>
-            <h2>CHANGE PASSWORD </h2>
+        <div id="chng">
+            <h2>Change Password</h2>
 
             <ol>
                 <li>
@@ -140,7 +148,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="log">
             <h2>Logging Out</h2>
             <div class="snippet">
                 <pre><code class="language-bash">

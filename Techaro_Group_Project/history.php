@@ -1,19 +1,28 @@
 <?php
     $name = 'Homepage';
-    include 'assets/php/nav2.php';
+    
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
 <title>History</title>
     <main class="main1">
         <!-- Style this to look like the thing in the document outline-->
-
+        <div>
+            <h1>History of Linux</h1>
+        </div>
         <div class="jumpLinks">
         <ul class="linksUl">
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
-            <li><a class="link" href="#">Jump Link</a></li>
+            <li><a class="link" href="#lin">Linus Torvalds</a></li>
+            <li><a class="link" href="#ken">Ken Thompson</a></li>
+            <li><a class="link" href="#den">Dennis Ritchie</a></li>
         </ul>
     </div>
-        <div>
+        
 
         <div class="container">
 
@@ -58,8 +67,8 @@
             </div>
         </div>
         <!--People-->
-        <div>
-            <h2>LINUS TORVALDS</h2>
+        <div id="lin">
+            <h2>Linus Torvalds</h2>
             <div class="text-image">
                 <div class="text2">
                     <p>Linus Torvalds is a software engineer and the creator of the Linux operating system. He was born on December 28, 1969, in Helsinki, Finland</p>
@@ -73,10 +82,10 @@
             
             
         </div>
-        <div>
-            <h2>KEN THOMPSON</h2>
+        <div id="ken">
+            <h2>Ken Thompson</h2>
             <div class="text-image">
-                <img src="assets/imgs/ken.png" alt="Ken Thompson">
+                <img src="assets/imgs/ken.jpg" alt="Ken Thompson">
                 <div class="text1">
                     <p>Ken Thompson is an American computer scientist who is best known for his contributions to the development of the Unix operating system and the programming languages B and C</p>
                     <p>He was born on February 4, 1943, in New Orleans, Louisiana. Thompson received his bachelor's degree in electrical engineering from the University of California, Berkeley, in 1965. He then went on to earn his master's degree and Ph.D. in computer science from the same institution.</p>
@@ -89,7 +98,7 @@
         </div>
 
         <div>
-            <h2>DENNIS RITCHIE</h2>
+            <h2 id="den">Dennis Ritchie</h2>
             <div class="text-image">
                 <div class="text2">
                     <p>Dennis Ritchie was an American computer scientist who is best known for his contributions to the development of the Unix operating system and the C programming language.</p>
@@ -97,7 +106,7 @@
                     <p>Ritchie played a key role in the development of the C programming language, which was used to write the first version of Unix. C became one of the most widely used programming languages in the world and has influenced the development of many other programming languages. Ritchie was also a co-author of the book "The C Programming Language," which is often referred to as the "bible" of the C programming language.</p>
                     <p>In addition to his work on Unix and C, Ritchie also contributed to several other areas of computer science, including algorithms, software tools, and operating systems. Ritchie received many awards and honors for his contributions to computer science, including the Turing Award in 1983 and the National Medal of Technology in 1998.</p>
                 </div>
-                <img src="assets/imgs/dennis.png" alt="Dennis Ritchie">
+                <img src="assets/imgs/dennis.jpeg" alt="Dennis Ritchie">
             </div>
             
             

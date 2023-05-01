@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $name; ?></title>
-    <link href="assets/css/navbar.css" rel="stylesheet" />
-    <link href="assets/css/home-navbar.css" rel="stylesheet" />
     <link href="assets/css/prism.css" rel="stylesheet" />
-    <link href="assets/css/snippet.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +16,7 @@
 
 <body>
     <nav>
-        <img src="assets/imgs/logo.svg" alt="" class="logo">
+        
         <ul>
             <li>
                 <a href="index.php">Home</a>
@@ -31,7 +28,7 @@
                 <a href="javascript:void(0)" class="dropbtn">Basics of Linux</a>
                     <div class="dropdown-content">
                         <a href="unix_arch.php">Unix Archteicture</a>
-                        <a href="dir_stru">Directory Structure</a>
+                        <a href="dir_stru.php">Directory Structure</a>
                     </div>
             </li>
             <li class="dropdown">
@@ -64,6 +61,7 @@
                 <a href="quiz.php">Quiz</a>
             </li>
         </ul>
+        <img src="assets/imgs/logo.svg" alt="" class="logo">
 
 
     </nav>

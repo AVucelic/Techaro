@@ -1,19 +1,20 @@
 <?php
     $name = 'Create Files';
-    include 'assets/php/nav2.php';
+    
 ?>
+<div id="nav-mobile">
+    <?php include 'assets/php/mobile_nav.php'; ?>
+</div>
+
+<div id="nav-desktop">
+    <?php include 'assets/php/nav2.php'; ?>
+</div>
     <title>Creating Files</title>
     <main class="main1">
         <div>
             <h1>Making Files</h1>
         </div>
-        <div class="jumpLinks">
-            <ul class="linksUl">
-                <li><a class="link" href="#">Jump Link</a></li>
-                <li><a class="link" href="#">Jump Link</a></li>
-                <li><a class="link" href="#">Jump Link</a></li>
-            </ul>
-        </div>
+        
 
         <div>
             <h2>Build files</h2>
