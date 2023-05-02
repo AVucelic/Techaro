@@ -144,7 +144,7 @@
                         }
                         
                     }
-                    echo "<p class='score'>$score . '/ 10'</p>";
+                    echo "<p class='score'>$score / 10</p>";
                     mysqli_close($mysqli);
 
 

@@ -1,3 +1,6 @@
 {
-    "livePreview.defaultPreviewPath": "/Techaro_Group_Project/index.html"
+    "livePreview.defaultPreviewPath": "/Techaro_Group_Project/index.html",
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
 }

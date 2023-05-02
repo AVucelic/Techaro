@@ -131,6 +131,8 @@ nav#nav-menu {
 .hamburger div img{
     
     padding-left: 85%;
+    width: 7%;
+    max-width: none;
 }
 
 
@@ -455,6 +457,8 @@ input[type="radio"] {
     height: 80px;
     background-color: #F0623D;
     color: #FEF1DB;
+    border-radius: 10px;
+
   }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap');
