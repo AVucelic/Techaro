@@ -1,6 +1,9 @@
 <?php
     $name = 'Commands';
+    include 'assets/php/top_nav.php';
+
 ?>
+
 <div id="nav-mobile">
     <?php include 'assets/php/mobile_nav.php'; ?>
 </div>
@@ -11,7 +14,7 @@
 
     <main class="main1">
         <div>
-            <h1 >Unix Commands & File Manipulation</h1>
+            <h1>Unix Commands & File Manipulation</h1>
             <div class="jumpLinks">
                 <ul class="linksUl">
                     <li><a class="link" href="#section_Commands">Commands</a></li>
@@ -26,7 +29,7 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # list all seeable files
 
                 % ls -> ls(list)    
             </code></pre> </div>
@@ -37,7 +40,7 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # list some of the hidden files
 
                 % ls -a    
             </code></pre> </div>
@@ -46,9 +49,17 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # making a new directory
 
-                % mkdir nameofdirectory    
+                % mkdir name directory    
+            </code></pre> </div>
+            <p class="p1">To remove a directory: </p>
+
+                <div class="snippet">
+            <pre><code class="language-bash">
+                # removing a directory
+
+                %Rmdir directory
             </code></pre> </div>
 
                 
@@ -58,9 +69,9 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # change the current directory
 
-                % cd nameofdirectory  
+                % cd name directory  
             </code></pre> </div>
 
 
@@ -69,7 +80,7 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # Moving to the current directory
 
                 % cd.  (. means the current directory) 
             </code></pre> </div>
@@ -78,7 +89,7 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # going up in the directory structure
 
                 % cd ..
             </code></pre> </div>
@@ -88,16 +99,16 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # list the current path 
 
-                % pwd  pwd
+                % pwd 
             </code></pre> </div>
                     
                 <p class="p1"> To specify paths starting at your home directory:  </p>
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # a way to go back to the highest point in directory structure
 
                 ~
             </code></pre> </div>
@@ -107,13 +118,13 @@
             
         </div>
         <div>
-            <h2 id="section_Manipulate">MANIPULATING FILES</h2>
+            <h2 id="section_Manipulate">Manipulating Files</h2>
             
                 <p class="p1">To copy file1 and call it file2: </p>
                     
                     <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # A way to copy files
 
                 % cp file1 file2
             </code></pre> </div>
@@ -124,9 +135,10 @@
                 <p class="p1">To move or rename file1 to file2:</p>
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # Renaming the file with file 1
+                #or replacing file2 with file1 in its directory
 
-                % mv
+                % mv file1 file2
             </code></pre> </div>
                     
             
@@ -134,37 +146,22 @@
                 <p class="p1">To remove a file:</p>
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # Removing a file
 
                 %rm file
             </code></pre> </div>
 
                 
                    
-                <p class="p1">To make a directory: </p>
-
-                <div class="snippet">
-            <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
-
-                % mkdir  nameofdirectory
-            </code></pre> </div>
+                
                    
-                <p class="p1">To remove a directory: </p>
-                <p class="p1">To make a directory: </p>
-
-                <div class="snippet">
-            <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
-
-                %Rmdir directory
-            </code></pre> </div>
+                
                     
 
                 <p class="p1">To display a file: </p>
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # also can edit the file
 
                 %cat file
             </code></pre> </div>
@@ -175,7 +172,7 @@
                 <p class="p1">To display a file a page at a time:</p>
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # looking at the file in unix
 
                 %less file
             </code></pre> </div>
@@ -186,7 +183,7 @@
                 <p class="p1">To display the first few lines of a file:</p>
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # wanting to see the initial lines
 
                 %head file
             </code></pre> </div>
@@ -199,7 +196,7 @@
               
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # seeing the last lines in the file
 
                 %tail file
             </code></pre> </div>
@@ -209,7 +206,7 @@
                 <p class="p1">To file search a file for keywords:</p>       
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # checking to see if file has the keyword
 
                 %grep 'keyword'
             </code></pre> </div>
@@ -224,14 +221,14 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # Seeing the size of the file
 
-                %wc file	count
+                %wc file count
             </code></pre> </div>
             <p class="p1"> Redirect standard output to a file: </p>
             <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # putting all the commands into the file to write a script 
 
                 command > file    
             </code></pre> </div>
@@ -244,7 +241,7 @@
                
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # Adding more to the file
 
                 command >> file
             </code></pre> </div>
@@ -255,9 +252,9 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # Changing input from file
 
-                command < file
+                command &lt; file
             </code></pre> </div>
 
 
@@ -266,7 +263,7 @@
                 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # moving the output 
 
                 command1 | command2
             </code></pre> </div>
@@ -276,7 +273,7 @@
               
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # putting files together to make a new one
 
                 cat file1 file2 > file0
             </code></pre> </div>
@@ -287,7 +284,7 @@
                 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # sort some file or something
 
                 sort
             </code></pre> </div>
@@ -298,7 +295,7 @@
          
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # seeing everyone who is one the computer or network
 
                 %who
             </code></pre> </div>
@@ -311,7 +308,7 @@
                 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # A way to test any character
 
                 *
             </code></pre> </div>
@@ -322,7 +319,7 @@
            
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # test only one type of character
 
                 ?
             </code></pre> </div>
@@ -333,7 +330,7 @@
                
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # Seeing what a command can do
 
                 %man command
             </code></pre> </div>
@@ -343,18 +340,18 @@
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # seeing what a unknown command is
 
                 %whatis command
             </code></pre> </div>
 
             
-            <p class="p1"v>	Match commands with keyword in their man pages: </p>
+            <p class="p1">	Match commands with keyword in their man pages: </p>
                 
 
                 <div class="snippet">
             <pre><code class="language-bash">
-                # Testing Unix (Bash) code here
+                # Matching commands
 
                 %apropos keyword
             </code></pre> </div>
@@ -364,3 +361,4 @@
 <?php
     include "assets/php/footer.php";
 ?>
+

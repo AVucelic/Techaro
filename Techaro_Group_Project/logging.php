@@ -1,5 +1,7 @@
 <?php
-    $name = 'Homepage';
+    $name = 'Logging';
+    include 'assets/php/top_nav.php';
+
     
 ?>
 <div id="nav-mobile">

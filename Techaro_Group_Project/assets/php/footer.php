@@ -1,5 +1,5 @@
         
-
+    </main>
         <footer> Copyright &copy; 2023. Techaro Group. All Rights Reserved.</footer>
         <script>
             function updateContent() {

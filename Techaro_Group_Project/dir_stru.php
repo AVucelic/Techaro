@@ -1,6 +1,8 @@
 
 <?php
     $name = 'Directory Structure';
+    include 'assets/php/top_nav.php';
+
 
 ?>
 <div id="nav-mobile">
@@ -10,7 +12,6 @@
 <div id="nav-desktop">
     <?php include 'assets/php/nav2.php'; ?>
 </div>
-    <title>Directory Structure</title>
     <main class="main1">
 
         <div>

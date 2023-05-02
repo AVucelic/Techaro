@@ -1,6 +1,7 @@
 <?php
     $name = 'Homepage';
-    
+    include 'assets/php/top_nav.php';
+
 ?>
 <div id="nav-mobile">
     <?php include 'assets/php/mobile_nav.php'; ?>
@@ -12,7 +13,8 @@
     <main class="main1">
         <div>
             <h1>Homepage</h1>
-    </div>
+        </div>
+        <div>
             <p>
                 Unix is a computer Operating System[1] which is capable of handling activities from multiple users at the
                 same time. Oldest operating system that has ever existed. Run multiple application programs simultaneously.
@@ -31,9 +33,12 @@
                 <li>multi user capabilities</li>
                 <li>extensive library of software</li>
                 <li>hierarchical file system</li>
-                <ul>
-                    <li>Most popular varieties of UNIX are Sun Solaris, GNU/Linux, and MacOS X</li>
-                </ul>
+                <li>
+                    <ul>
+                        <li>Most popular varieties of UNIX are Sun Solaris, GNU/Linux, and MacOS X</li>
+                    </ul>
+                </li>
+                
             </ol>
         </div>
         

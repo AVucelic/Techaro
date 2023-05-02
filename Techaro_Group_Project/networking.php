@@ -1,5 +1,7 @@
 <?php
-    $name = 'Homepage';
+    $name = 'Networking';
+    include 'assets/php/top_nav.php';
+
     
 ?>
 <div id="nav-mobile">
@@ -9,7 +11,6 @@
 <div id="nav-desktop">
     <?php include 'assets/php/nav2.php'; ?>
 </div>
-    <title>Networking</title>
     <main class="main1">
 
 

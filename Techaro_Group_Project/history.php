@@ -1,5 +1,7 @@
 <?php
-    $name = 'Homepage';
+    $name = 'History';
+    include 'assets/php/top_nav.php';
+
     
 ?>
 <div id="nav-mobile">
@@ -9,7 +11,6 @@
 <div id="nav-desktop">
     <?php include 'assets/php/nav2.php'; ?>
 </div>
-<title>History</title>
     <main class="main1">
         <!-- Style this to look like the thing in the document outline-->
         <div>
